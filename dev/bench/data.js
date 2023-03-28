@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679967483287,
+  "lastUpdate": 1679967486592,
   "repoUrl": "https://github.com/JaimeChavarriaga/honkit",
   "entries": {
     "HonKit benchmark": [
@@ -8988,6 +8988,37 @@ window.BENCHMARK_DATA = {
             "name": "run honkit build",
             "value": 0.11,
             "range": "±0.54%",
+            "unit": "ops/sec",
+            "extra": "5 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "waldyrious@gmail.com",
+            "name": "Waldir Pimenta",
+            "username": "waldyrious"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b723ce51cf8a4ee1a26a7b8f461c06a650ff7d0c",
+          "message": "docs: Link to gitbook comparison in home page (#337)\n\n* Use semantic line breaks in docs/README.md\r\n\r\nThis helps make lines shorter and diffs cleaner.\r\nSee https://rhodesmill.org/brandon/2012/one-sentence-per-line/ for more info.\r\n\r\n* Link to gitbook comparison in home page",
+          "timestamp": "2023-03-26T23:39:43+09:00",
+          "tree_id": "cd9ce65dc9f01f6479ff1d3b8b7b722063a1a2e5",
+          "url": "https://github.com/JaimeChavarriaga/honkit/commit/b723ce51cf8a4ee1a26a7b8f461c06a650ff7d0c"
+        },
+        "date": 1679967485063,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "run honkit build",
+            "value": 0.11,
+            "range": "±0.90%",
             "unit": "ops/sec",
             "extra": "5 samples"
           }
